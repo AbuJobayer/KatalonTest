@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>Test Steps to open the Google Drive from the Gmail Account</description>
+   <name>TC - Google Drive Upload</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>1a4c49b9-27de-4220-9744-8fe438ff2b90</testCaseGuid>
+</TestCaseEntity>

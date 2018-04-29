@@ -1,0 +1,24 @@
+Suite/Test/Step Name,Browser,Description,Start time,End time,Duration,Status
+Quick Test,Chrome 65.0.3325.181,,2018-04-26 21:54:58,2018-04-26 21:56:02,1m - 3.648s,FAILED
+,,,,,,
+Test Cases/Gmail/TC - Login to Gmail,Chrome 65.0.3325.181,Gmail Login Screen,2018-04-26 21:54:58,2018-04-26 21:55:16,17.647s,PASSED
+openBrowser,Chrome 65.0.3325.181,Open the Gmail URL,2018-04-26 21:54:59,2018-04-26 21:55:08,8.669s,PASSED
+maximizeWindow,Chrome 65.0.3325.181,,2018-04-26 21:55:08,2018-04-26 21:55:09,1.246s,PASSED
+waitForPageLoad,Chrome 65.0.3325.181,,2018-04-26 21:55:09,2018-04-26 21:55:09,0.143s,PASSED
+verifyElementPresent,Chrome 65.0.3325.181,Verify the Email Input field,2018-04-26 21:55:09,2018-04-26 21:55:09,0.132s,PASSED
+sendKeys,Chrome 65.0.3325.181,Enter the email address,2018-04-26 21:55:09,2018-04-26 21:55:10,0.446s,PASSED
+delay,Chrome 65.0.3325.181,,2018-04-26 21:55:10,2018-04-26 21:55:12,2.043s,PASSED
+click,Chrome 65.0.3325.181,Click on Next Button,2018-04-26 21:55:12,2018-04-26 21:55:12,0.177s,PASSED
+waitForPageLoad,Chrome 65.0.3325.181,,2018-04-26 21:55:12,2018-04-26 21:55:12,0.049s,PASSED
+verifyElementPresent,Chrome 65.0.3325.181,Verify Password Input Field,2018-04-26 21:55:12,2018-04-26 21:55:12,0.554s,PASSED
+sendKeys,Chrome 65.0.3325.181,Add Password from Excel Datasource in Password Field,2018-04-26 21:55:12,2018-04-26 21:55:14,1.484s,PASSED
+delay,Chrome 65.0.3325.181,,2018-04-26 21:55:14,2018-04-26 21:55:16,2.004s,PASSED
+click,Chrome 65.0.3325.181,Click on Next Button,2018-04-26 21:55:16,2018-04-26 21:55:16,0.177s,PASSED
+,,,,,,
+Test Cases/Gmail/TC - Logout from Gmail,Chrome 65.0.3325.181,,2018-04-26 21:55:16,2018-04-26 21:56:01,44.638s,FAILED
+click,Chrome 65.0.3325.181,Click on the Account Button,2018-04-26 21:55:17,2018-04-26 21:55:23,6.484s,PASSED
+delay,Chrome 65.0.3325.181,,2018-04-26 21:55:23,2018-04-26 21:55:25,2.002s,PASSED
+click,Chrome 65.0.3325.181,Click on the Signout button,2018-04-26 21:55:25,2018-04-26 21:55:28,2.702s,PASSED
+delay,Chrome 65.0.3325.181,,2018-04-26 21:55:28,2018-04-26 21:55:30,2.002s,PASSED
+waitForAlert,Chrome 65.0.3325.181,Wait for confirmation Popup,2018-04-26 21:55:30,2018-04-26 21:56:00,30.638s,PASSED
+acceptAlert,Chrome 65.0.3325.181,Leave the Gmail account,2018-04-26 21:56:00,2018-04-26 21:56:01,0.341s,FAILED

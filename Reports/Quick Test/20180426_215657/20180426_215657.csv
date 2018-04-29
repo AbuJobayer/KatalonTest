@@ -1,0 +1,22 @@
+Suite/Test/Step Name,Browser,Description,Start time,End time,Duration,Status
+Quick Test,Chrome 65.0.3325.181,,2018-04-26 21:56:59,2018-04-26 21:57:25,25.991s,PASSED
+,,,,,,
+Test Cases/Gmail/TC - Login to Gmail,Chrome 65.0.3325.181,Gmail Login Screen,2018-04-26 21:57:00,2018-04-26 21:57:16,16.016s,PASSED
+openBrowser,Chrome 65.0.3325.181,Open the Gmail URL,2018-04-26 21:57:00,2018-04-26 21:57:08,7.059s,PASSED
+maximizeWindow,Chrome 65.0.3325.181,,2018-04-26 21:57:08,2018-04-26 21:57:09,1.362s,PASSED
+waitForPageLoad,Chrome 65.0.3325.181,,2018-04-26 21:57:09,2018-04-26 21:57:09,0.130s,PASSED
+verifyElementPresent,Chrome 65.0.3325.181,Verify the Email Input field,2018-04-26 21:57:09,2018-04-26 21:57:09,0.091s,PASSED
+sendKeys,Chrome 65.0.3325.181,Enter the email address,2018-04-26 21:57:09,2018-04-26 21:57:09,0.305s,PASSED
+delay,Chrome 65.0.3325.181,,2018-04-26 21:57:09,2018-04-26 21:57:11,2.047s,PASSED
+click,Chrome 65.0.3325.181,Click on Next Button,2018-04-26 21:57:11,2018-04-26 21:57:12,0.414s,PASSED
+waitForPageLoad,Chrome 65.0.3325.181,,2018-04-26 21:57:12,2018-04-26 21:57:12,0.013s,PASSED
+verifyElementPresent,Chrome 65.0.3325.181,Verify Password Input Field,2018-04-26 21:57:12,2018-04-26 21:57:12,0.585s,PASSED
+sendKeys,Chrome 65.0.3325.181,Add Password from Excel Datasource in Password Field,2018-04-26 21:57:12,2018-04-26 21:57:14,1.253s,PASSED
+delay,Chrome 65.0.3325.181,,2018-04-26 21:57:14,2018-04-26 21:57:16,2.004s,PASSED
+click,Chrome 65.0.3325.181,Click on Next Button,2018-04-26 21:57:16,2018-04-26 21:57:16,0.164s,PASSED
+,,,,,,
+Test Cases/Gmail/TC - Logout from Gmail,Chrome 65.0.3325.181,,2018-04-26 21:57:16,2018-04-26 21:57:24,8.587s,PASSED
+click,Chrome 65.0.3325.181,Click on the Account Button,2018-04-26 21:57:16,2018-04-26 21:57:20,3.885s,PASSED
+delay,Chrome 65.0.3325.181,,2018-04-26 21:57:20,2018-04-26 21:57:22,2.003s,PASSED
+click,Chrome 65.0.3325.181,Click on the Signout button,2018-04-26 21:57:22,2018-04-26 21:57:22,0.224s,PASSED
+delay,Chrome 65.0.3325.181,,2018-04-26 21:57:22,2018-04-26 21:57:24,2.011s,PASSED

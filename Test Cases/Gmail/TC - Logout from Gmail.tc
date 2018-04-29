@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>TC - Logout from Gmail</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>c48f033f-3cc8-4ccc-971c-334bb44f7f8a</testCaseGuid>
+</TestCaseEntity>

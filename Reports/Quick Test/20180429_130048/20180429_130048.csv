@@ -1,0 +1,5 @@
+Suite/Test/Step Name,Browser,Description,Start time,End time,Duration,Status
+Quick Test,Chrome 65.0.3325.181,,2018-04-29 13:00:51,2018-04-29 13:01:05,14.304s,ERROR
+,,,,,,
+Test Cases/Gmail/TC - Compose And Send Email,Chrome 65.0.3325.181,,2018-04-29 13:00:52,2018-04-29 13:01:04,12.734s,ERROR
+com.gmail.authentication.GmailAuthentication.GmailLogin,Chrome 65.0.3325.181,,2018-04-29 13:00:52,2018-04-29 13:01:04,12.056s,ERROR

@@ -1,0 +1,344 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="RegressionTest" time="158" tests="2" failures="2" errors="0">
+   <testsuite name="RegressionTest" tests="2" failures="2" errors="0" time="158" timestamp="2018-04-27 00:54:38" hostname="ajobayer - Abu-laptop.dashingprint.local" id="Test Suites/RegressionTest">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="C:\\Users\\ajobayer.DASHINGPRINT\\Katalon Studio\\TestProject Katalon\\Reports\\RegressionTest\\20180427_005435"/>
+         <property name="logFiles" value="C:\\Users\\ajobayer.DASHINGPRINT\\Katalon Studio\\TestProject Katalon\\Reports\\RegressionTest\\20180427_005435\\execution0.log"/>
+         <property name="attachments" value="C:\\Users\\ajobayer.DASHINGPRINT\\Katalon Studio\\TestProject Katalon\\Reports\\RegressionTest\\20180427_005435\\1524754571749.png"/>
+         <property name="hostName" value="ajobayer - Abu-laptop.dashingprint.local"/>
+         <property name="os" value="Windows 10 64bit"/>
+         <property name="katalonVersion" value="5.4.1.1"/>
+         <property name="browser" value="Chrome 65.0.3325.181"/>
+         <property name="hostAddress" value="192.168.0.2"/>
+         <property name="sessionId" value="ab6246cdf46a1bc81c195c8be246ba7e"/>
+         <property name="seleniumVersion" value="3.7.1"/>
+         <property name="proxyInformation" value="ProxyInformation{proxyOption=NO_PROXY, proxyServerType=HTTP, password=, proxyServerAddress=, proxyServerPort=0}"/>
+         <property name="platform" value="Windows 10"/>
+      </properties>
+      <testcase name="Test Cases/Gmail/TC - Login to Gmail" classname="Test Cases/Gmail/TC - Login to Gmail" status="PASSED">
+         <system-out><![CDATA[2018-04-27 00:54:38 - [TEST_CASE][PASSED] - Test Cases/Gmail/TC - Login to Gmail: Test Cases/Gmail/TC - Login to Gmail
+
+2018-04-27 00:54:39 - [TEST_STEP][PASSED] - openBrowser: Browser is opened with url: 'www.gmail.com'
+
+2018-04-27 00:54:48 - [MESSAGE][PASSED] - Browser is opened with url: 'www.gmail.com'
+
+2018-04-27 00:54:48 - [TEST_STEP][PASSED] - maximizeWindow: Current window maximized
+
+2018-04-27 00:54:50 - [MESSAGE][PASSED] - Current window maximized
+
+2018-04-27 00:54:50 - [TEST_STEP][PASSED] - waitForPageLoad: Wait for page load successfully
+
+2018-04-27 00:54:50 - [MESSAGE][PASSED] - Wait for page load successfully
+
+2018-04-27 00:54:50 - [TEST_STEP][PASSED] - verifyElementPresent: Object 'Object Repository/GmailLoginPage/EmailField' is present
+
+2018-04-27 00:54:50 - [MESSAGE][PASSED] - Object 'Object Repository/GmailLoginPage/EmailField' is present
+
+2018-04-27 00:54:50 - [TEST_STEP][PASSED] - sendKeys: Keys 'abukatalon1@gmail.com' sent to object: 'Object Repository/GmailLoginPage/EmailField'
+
+2018-04-27 00:54:50 - [MESSAGE][PASSED] - Keys 'abukatalon1@gmail.com' sent to object: 'Object Repository/GmailLoginPage/EmailField'
+
+2018-04-27 00:54:50 - [TEST_STEP][PASSED] - delay: Delayed 2 second(s)
+
+2018-04-27 00:54:52 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2018-04-27 00:54:52 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/GmailLoginPage/NextButton' is clicked on
+
+2018-04-27 00:54:53 - [MESSAGE][PASSED] - Object: 'Object Repository/GmailLoginPage/NextButton' is clicked on
+
+2018-04-27 00:54:53 - [TEST_STEP][PASSED] - waitForPageLoad: Wait for page load successfully
+
+2018-04-27 00:54:53 - [MESSAGE][PASSED] - Wait for page load successfully
+
+2018-04-27 00:54:53 - [TEST_STEP][PASSED] - verifyElementPresent: Object 'Object Repository/GmailLoginPage/PasswordField' is present
+
+2018-04-27 00:54:53 - [MESSAGE][PASSED] - Object 'Object Repository/GmailLoginPage/PasswordField' is present
+
+2018-04-27 00:54:53 - [TEST_STEP][PASSED] - sendKeys: Keys 'judas4321' sent to object: 'Object Repository/GmailLoginPage/PasswordField'
+
+2018-04-27 00:54:54 - [MESSAGE][PASSED] - Keys 'judas4321' sent to object: 'Object Repository/GmailLoginPage/PasswordField'
+
+2018-04-27 00:54:54 - [TEST_STEP][PASSED] - delay: Delayed 2 second(s)
+
+2018-04-27 00:54:56 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2018-04-27 00:54:56 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/GmailLoginPage/NextButton' is clicked on
+
+2018-04-27 00:54:57 - [MESSAGE][PASSED] - Object: 'Object Repository/GmailLoginPage/NextButton' is clicked on]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Gmail/TC - Logout from Gmail" classname="Test Cases/Gmail/TC - Logout from Gmail" status="PASSED">
+         <system-out><![CDATA[2018-04-27 00:54:57 - [TEST_CASE][PASSED] - Test Cases/Gmail/TC - Logout from Gmail: Test Cases/Gmail/TC - Logout from Gmail
+
+2018-04-27 00:54:57 - [TEST_STEP][PASSED] - delay: Delayed 2 second(s)
+
+2018-04-27 00:54:59 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2018-04-27 00:54:59 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/GmailHomePage/GmailAccountBttn' is clicked on
+
+2018-04-27 00:55:01 - [MESSAGE][PASSED] - Object: 'Object Repository/GmailHomePage/GmailAccountBttn' is clicked on
+
+2018-04-27 00:55:01 - [TEST_STEP][PASSED] - delay: Delayed 2 second(s)
+
+2018-04-27 00:55:03 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2018-04-27 00:55:03 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/GmailHomePage/SignOutBttn' is clicked on
+
+2018-04-27 00:55:04 - [MESSAGE][PASSED] - Object: 'Object Repository/GmailHomePage/SignOutBttn' is clicked on
+
+2018-04-27 00:55:04 - [TEST_STEP][PASSED] - delay: Delayed 2 second(s)
+
+2018-04-27 00:55:06 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2018-04-27 00:55:06 - [TEST_STEP][PASSED] - closeBrowser: Browser is closed
+
+2018-04-27 00:55:06 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Drive/TC - Google Drive Upload" classname="Test Cases/Drive/TC - Google Drive Upload" status="FAILED">
+         <failure type="FAILED" message="No alert found"/>
+         <system-out><![CDATA[2018-04-27 00:55:06 - [TEST_CASE][FAILED] - Test Cases/Drive/TC - Google Drive Upload: Test Cases/Drive/TC - Google Drive Upload FAILED because (of) No alert found
+
+2018-04-27 00:55:07 - [TEST_STEP][PASSED] - com.gmail.authentication.GmailAuthentication.GmailLogin: com.gmail.authentication.GmailAuthentication.GmailLogin is PASSED
+
+2018-04-27 00:55:13 - [MESSAGE][PASSED] - Browser is opened with url: 'www.gmail.com'
+
+2018-04-27 00:55:13 - [MESSAGE][PASSED] - Wait for page load successfully
+
+2018-04-27 00:55:14 - [MESSAGE][PASSED] - Current window maximized
+
+2018-04-27 00:55:15 - [MESSAGE][PASSED] - Keys 'abukatalon1@gmail.com' sent to object: 'Object Repository/GmailLoginPage/EmailField'
+
+2018-04-27 00:55:15 - [MESSAGE][PASSED] - Object: 'Object Repository/GmailLoginPage/NextButton' is clicked on
+
+2018-04-27 00:55:16 - [MESSAGE][PASSED] - Object 'Object Repository/GmailLoginPage/PasswordField' is present
+
+2018-04-27 00:55:16 - [MESSAGE][PASSED] - Keys 'judas4321' sent to object: 'Object Repository/GmailLoginPage/PasswordField'
+
+2018-04-27 00:55:17 - [MESSAGE][PASSED] - Object: 'Object Repository/GmailLoginPage/NextButton' is clicked on
+
+2018-04-27 00:55:17 - [MESSAGE][PASSED] - com.gmail.authentication.GmailAuthentication.GmailLogin is PASSED
+
+2018-04-27 00:55:17 - [TEST_STEP][PASSED] - waitForPageLoad: Wait for page load successfully
+
+2018-04-27 00:55:17 - [MESSAGE][PASSED] - Wait for page load successfully
+
+2018-04-27 00:55:17 - [TEST_STEP][PASSED] - waitForElementPresent: Object 'Object Repository/GmailHomePage/GoogleAppsBttn' is present
+
+2018-04-27 00:55:21 - [MESSAGE][PASSED] - Object 'Object Repository/GmailHomePage/GoogleAppsBttn' is present
+
+2018-04-27 00:55:21 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/GmailHomePage/GoogleAppsBttn' is clicked on
+
+2018-04-27 00:55:21 - [MESSAGE][PASSED] - Object: 'Object Repository/GmailHomePage/GoogleAppsBttn' is clicked on
+
+2018-04-27 00:55:21 - [TEST_STEP][PASSED] - delay: Delayed 2 second(s)
+
+2018-04-27 00:55:23 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2018-04-27 00:55:23 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/GmailHomePage/GoogleDriveBttn' is clicked on
+
+2018-04-27 00:55:24 - [MESSAGE][PASSED] - Object: 'Object Repository/GmailHomePage/GoogleDriveBttn' is clicked on
+
+2018-04-27 00:55:24 - [TEST_STEP][PASSED] - delay: Delayed 2 second(s)
+
+2018-04-27 00:55:26 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2018-04-27 00:55:26 - [TEST_STEP][PASSED] - switchToWindowIndex: Switched to window with index: '1'
+
+2018-04-27 00:55:26 - [MESSAGE][PASSED] - Switched to window with index: '1'
+
+2018-04-27 00:55:26 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/GoogleDrive/NewBttn' is clicked on
+
+2018-04-27 00:55:28 - [MESSAGE][PASSED] - Object: 'Object Repository/GoogleDrive/NewBttn' is clicked on
+
+2018-04-27 00:55:28 - [TEST_STEP][PASSED] - delay: Delayed 2 second(s)
+
+2018-04-27 00:55:30 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2018-04-27 00:55:30 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/GoogleDrive/FileUpload' is clicked on
+
+2018-04-27 00:55:30 - [MESSAGE][PASSED] - Object: 'Object Repository/GoogleDrive/FileUpload' is clicked on
+
+2018-04-27 00:55:30 - [TEST_STEP][PASSED] - delay: Delayed 2 second(s)
+
+2018-04-27 00:55:32 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2018-04-27 00:55:32 - [TEST_STEP][PASSED] - Statement - Autoit_Fileupload = "C:\Autoit\File_upload.exe": null
+
+2018-04-27 00:55:32 - [TEST_STEP][PASSED] - Statement - java.lang.Runtime.getRuntime().exec(Autoit_Fileupload): null
+
+2018-04-27 00:55:32 - [TEST_STEP][PASSED] - Statement - java.lang.Thread.sleep(3000): null
+
+2018-04-27 00:55:35 - [TEST_STEP][PASSED] - waitForPageLoad: Wait for page load successfully
+
+2018-04-27 00:55:35 - [MESSAGE][PASSED] - Wait for page load successfully
+
+2018-04-27 00:55:35 - [TEST_STEP][PASSED] - waitForElementPresent: Object 'Object Repository/GoogleDrive/ImageFile' is present
+
+2018-04-27 00:55:35 - [MESSAGE][PASSED] - Object 'Object Repository/GoogleDrive/ImageFile' is present
+
+2018-04-27 00:55:35 - [TEST_STEP][PASSED] - delay: Delayed 2 second(s)
+
+2018-04-27 00:55:37 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2018-04-27 00:55:37 - [TEST_STEP][FAILED] - com.gmail.authentication.GmailAuthentication.GmailLogout: No alert found
+
+2018-04-27 00:55:37 - [MESSAGE][PASSED] - Switched to window with index: '0'
+
+2018-04-27 00:55:37 - [MESSAGE][PASSED] - Object: 'Object Repository/GmailHomePage/GmailAccountBttn' is clicked on
+
+2018-04-27 00:55:41 - [MESSAGE][PASSED] - Object: 'Object Repository/GmailHomePage/SignOutBttn' is clicked on
+
+2018-04-27 00:56:11 - [MESSAGE][WARNING] - No alert found after 30 second(s).
+
+2018-04-27 00:56:12 - [MESSAGE][FAILED] - No alert found
+[[ATTACHMENT|C:\\Users\\ajobayer.DASHINGPRINT\\Katalon Studio\\TestProject Katalon\\Reports\\RegressionTest\\20180427_005435\\1524754571749.png]]
+
+2018-04-27 00:56:12 - [MESSAGE][PASSED] - Browser is closed
+
+2018-04-27 00:56:12 - [MESSAGE][FAILED] - No alert found]]></system-out>
+         <system-err><![CDATA[2018-04-27 00:55:06 - [TEST_CASE][FAILED] - Test Cases/Drive/TC - Google Drive Upload: Test Cases/Drive/TC - Google Drive Upload FAILED because (of) No alert found]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Gmail/TC - Compose And Send Email" classname="Test Cases/Gmail/TC - Compose And Send Email" status="FAILED">
+         <failure type="FAILED" message="Unable to wait for alert (Root cause: org.openqa.selenium.WebDriverException: chrome not reachable
+  (Session info: chrome=65.0.3325.181)
+  (Driver info: chromedriver=2.35.528161 (5b82f2d2aae0ca24b877009200ced9065a772e73),platform=Windows NT 10.0.14393 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 0 milliseconds
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:07:36.161Z'
+System info: host: 'ABU-LAPTOP', ip: '192.168.0.2', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_102'
+Driver info: com.kms.katalon.selenium.driver.CChromeDriver
+Capabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 2.35.528161 (5b82f2d2aae0ca..., userDataDir: C:\Users\AJOBAY~1.DAS\AppDa...}, cssSelectorsEnabled: true, databaseEnabled: false, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, rotatable: false, setWindowRect: true, takesHeapSnapshot: true, takesScreenshot: true, unexpectedAlertBehaviour: , unhandledPromptBehavior: , version: 65.0.3325.181, webStorageEnabled: true}
+Session ID: ab6246cdf46a1bc81c195c8be246ba7e)"/>
+         <system-out><![CDATA[2018-04-27 00:56:12 - [TEST_CASE][FAILED] - Test Cases/Gmail/TC - Compose And Send Email: Test Cases/Gmail/TC - Compose And Send Email FAILED because (of) Unable to wait for alert (Root cause: org.openqa.selenium.WebDriverException: chrome not reachable
+  (Session info: chrome=65.0.3325.181)
+  (Driver info: chromedriver=2.35.528161 (5b82f2d2aae0ca24b877009200ced9065a772e73),platform=Windows NT 10.0.14393 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 0 milliseconds
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:07:36.161Z'
+System info: host: 'ABU-LAPTOP', ip: '192.168.0.2', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_102'
+Driver info: com.kms.katalon.selenium.driver.CChromeDriver
+Capabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 2.35.528161 (5b82f2d2aae0ca..., userDataDir: C:\Users\AJOBAY~1.DAS\AppDa...}, cssSelectorsEnabled: true, databaseEnabled: false, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, rotatable: false, setWindowRect: true, takesHeapSnapshot: true, takesScreenshot: true, unexpectedAlertBehaviour: , unhandledPromptBehavior: , version: 65.0.3325.181, webStorageEnabled: true}
+Session ID: ab6246cdf46a1bc81c195c8be246ba7e)
+
+2018-04-27 00:56:13 - [TEST_STEP][PASSED] - com.gmail.authentication.GmailAuthentication.GmailLogin: com.gmail.authentication.GmailAuthentication.GmailLogin is PASSED
+
+2018-04-27 00:56:19 - [MESSAGE][PASSED] - Browser is opened with url: 'www.gmail.com'
+
+2018-04-27 00:56:19 - [MESSAGE][PASSED] - Wait for page load successfully
+
+2018-04-27 00:56:20 - [MESSAGE][PASSED] - Current window maximized
+
+2018-04-27 00:56:21 - [MESSAGE][PASSED] - Keys 'abukatalon1@gmail.com' sent to object: 'Object Repository/GmailLoginPage/EmailField'
+
+2018-04-27 00:56:21 - [MESSAGE][PASSED] - Object: 'Object Repository/GmailLoginPage/NextButton' is clicked on
+
+2018-04-27 00:56:21 - [MESSAGE][PASSED] - Object 'Object Repository/GmailLoginPage/PasswordField' is present
+
+2018-04-27 00:56:22 - [MESSAGE][PASSED] - Keys 'judas4321' sent to object: 'Object Repository/GmailLoginPage/PasswordField'
+
+2018-04-27 00:56:22 - [MESSAGE][PASSED] - Object: 'Object Repository/GmailLoginPage/NextButton' is clicked on
+
+2018-04-27 00:56:22 - [MESSAGE][PASSED] - com.gmail.authentication.GmailAuthentication.GmailLogin is PASSED
+
+2018-04-27 00:56:22 - [TEST_STEP][PASSED] - verifyElementPresent: Object 'Object Repository/GmailHomePage/ComposeBttn' is present
+
+2018-04-27 00:56:26 - [MESSAGE][PASSED] - Object 'Object Repository/GmailHomePage/ComposeBttn' is present
+
+2018-04-27 00:56:26 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/GmailHomePage/ComposeBttn' is clicked on
+
+2018-04-27 00:56:26 - [MESSAGE][PASSED] - Object: 'Object Repository/GmailHomePage/ComposeBttn' is clicked on
+
+2018-04-27 00:56:26 - [TEST_STEP][PASSED] - verifyElementPresent: Object 'Object Repository/GmailHomePage/RecipientsField' is present
+
+2018-04-27 00:56:27 - [MESSAGE][PASSED] - Object 'Object Repository/GmailHomePage/RecipientsField' is present
+
+2018-04-27 00:56:27 - [TEST_STEP][PASSED] - sendKeys: Keys 'abukatalon1@gmail.com' sent to object: 'Object Repository/GmailHomePage/RecipientsField'
+
+2018-04-27 00:56:28 - [MESSAGE][PASSED] - Keys 'abukatalon1@gmail.com' sent to object: 'Object Repository/GmailHomePage/RecipientsField'
+
+2018-04-27 00:56:28 - [TEST_STEP][PASSED] - sendKeys: Keys 'Subject for testing' sent to object: 'Object Repository/GmailHomePage/SubjectField'
+
+2018-04-27 00:56:29 - [MESSAGE][PASSED] - Keys 'Subject for testing' sent to object: 'Object Repository/GmailHomePage/SubjectField'
+
+2018-04-27 00:56:29 - [TEST_STEP][PASSED] - sendKeys: Keys 'Email content: This is for the testing purpose ' sent to object: 'Object Repository/GmailHomePage/TextField'
+
+2018-04-27 00:56:30 - [MESSAGE][PASSED] - Keys 'Email content: This is for the testing purpose ' sent to object: 'Object Repository/GmailHomePage/TextField'
+
+2018-04-27 00:56:30 - [TEST_STEP][PASSED] - delay: Delayed 2 second(s)
+
+2018-04-27 00:56:32 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2018-04-27 00:56:32 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/GmailHomePage/SendBttn' is clicked on
+
+2018-04-27 00:56:32 - [MESSAGE][PASSED] - Object: 'Object Repository/GmailHomePage/SendBttn' is clicked on
+
+2018-04-27 00:56:32 - [TEST_STEP][PASSED] - delay: Delayed 2 second(s)
+
+2018-04-27 00:56:34 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2018-04-27 00:56:34 - [TEST_STEP][FAILED] - com.gmail.authentication.GmailAuthentication.GmailLogout: Unable to wait for alert (Root cause: org.openqa.selenium.WebDriverException: chrome not reachable
+  (Session info: chrome=65.0.3325.181)
+  (Driver info: chromedriver=2.35.528161 (5b82f2d2aae0ca24b877009200ced9065a772e73),platform=Windows NT 10.0.14393 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 0 milliseconds
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:07:36.161Z'
+System info: host: 'ABU-LAPTOP', ip: '192.168.0.2', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_102'
+Driver info: com.kms.katalon.selenium.driver.CChromeDriver
+Capabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 2.35.528161 (5b82f2d2aae0ca..., userDataDir: C:\Users\AJOBAY~1.DAS\AppDa...}, cssSelectorsEnabled: true, databaseEnabled: false, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, rotatable: false, setWindowRect: true, takesHeapSnapshot: true, takesScreenshot: true, unexpectedAlertBehaviour: , unhandledPromptBehavior: , version: 65.0.3325.181, webStorageEnabled: true}
+Session ID: ab6246cdf46a1bc81c195c8be246ba7e)
+
+2018-04-27 00:56:34 - [MESSAGE][PASSED] - Switched to window with index: '0'
+
+2018-04-27 00:56:35 - [MESSAGE][PASSED] - Object: 'Object Repository/GmailHomePage/GmailAccountBttn' is clicked on
+
+2018-04-27 00:56:37 - [MESSAGE][PASSED] - Object: 'Object Repository/GmailHomePage/SignOutBttn' is clicked on
+
+2018-04-27 00:57:08 - [MESSAGE][WARNING] - Cannot take screenshot
+
+2018-04-27 00:57:08 - [MESSAGE][FAILED] - Unable to wait for alert (Root cause: org.openqa.selenium.WebDriverException: chrome not reachable
+  (Session info: chrome=65.0.3325.181)
+  (Driver info: chromedriver=2.35.528161 (5b82f2d2aae0ca24b877009200ced9065a772e73),platform=Windows NT 10.0.14393 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 0 milliseconds
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:07:36.161Z'
+System info: host: 'ABU-LAPTOP', ip: '192.168.0.2', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_102'
+Driver info: com.kms.katalon.selenium.driver.CChromeDriver
+Capabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 2.35.528161 (5b82f2d2aae0ca..., userDataDir: C:\Users\AJOBAY~1.DAS\AppDa...}, cssSelectorsEnabled: true, databaseEnabled: false, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, rotatable: false, setWindowRect: true, takesHeapSnapshot: true, takesScreenshot: true, unexpectedAlertBehaviour: , unhandledPromptBehavior: , version: 65.0.3325.181, webStorageEnabled: true}
+Session ID: ab6246cdf46a1bc81c195c8be246ba7e)
+
+2018-04-27 00:57:16 - [MESSAGE][WARNING] - Cannot take screenshot
+
+2018-04-27 00:57:16 - [MESSAGE][FAILED] - Unable to accept alert (Root cause: org.openqa.selenium.WebDriverException: chrome not reachable
+  (Session info: chrome=65.0.3325.181)
+  (Driver info: chromedriver=2.35.528161 (5b82f2d2aae0ca24b877009200ced9065a772e73),platform=Windows NT 10.0.14393 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 0 milliseconds
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:07:36.161Z'
+System info: host: 'ABU-LAPTOP', ip: '192.168.0.2', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_102'
+Driver info: com.kms.katalon.selenium.driver.CChromeDriver
+Capabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 2.35.528161 (5b82f2d2aae0ca..., userDataDir: C:\Users\AJOBAY~1.DAS\AppDa...}, cssSelectorsEnabled: true, databaseEnabled: false, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, rotatable: false, setWindowRect: true, takesHeapSnapshot: true, takesScreenshot: true, unexpectedAlertBehaviour: , unhandledPromptBehavior: , version: 65.0.3325.181, webStorageEnabled: true}
+Session ID: ab6246cdf46a1bc81c195c8be246ba7e)
+
+2018-04-27 00:57:16 - [MESSAGE][PASSED] - Browser is closed
+
+2018-04-27 00:57:16 - [MESSAGE][FAILED] - Unable to wait for alert (Root cause: org.openqa.selenium.WebDriverException: chrome not reachable
+  (Session info: chrome=65.0.3325.181)
+  (Driver info: chromedriver=2.35.528161 (5b82f2d2aae0ca24b877009200ced9065a772e73),platform=Windows NT 10.0.14393 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 0 milliseconds
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:07:36.161Z'
+System info: host: 'ABU-LAPTOP', ip: '192.168.0.2', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_102'
+Driver info: com.kms.katalon.selenium.driver.CChromeDriver
+Capabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 2.35.528161 (5b82f2d2aae0ca..., userDataDir: C:\Users\AJOBAY~1.DAS\AppDa...}, cssSelectorsEnabled: true, databaseEnabled: false, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, rotatable: false, setWindowRect: true, takesHeapSnapshot: true, takesScreenshot: true, unexpectedAlertBehaviour: , unhandledPromptBehavior: , version: 65.0.3325.181, webStorageEnabled: true}
+Session ID: ab6246cdf46a1bc81c195c8be246ba7e)]]></system-out>
+         <system-err><![CDATA[2018-04-27 00:56:12 - [TEST_CASE][FAILED] - Test Cases/Gmail/TC - Compose And Send Email: Test Cases/Gmail/TC - Compose And Send Email FAILED because (of) Unable to wait for alert (Root cause: org.openqa.selenium.WebDriverException: chrome not reachable
+  (Session info: chrome=65.0.3325.181)
+  (Driver info: chromedriver=2.35.528161 (5b82f2d2aae0ca24b877009200ced9065a772e73),platform=Windows NT 10.0.14393 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 0 milliseconds
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:07:36.161Z'
+System info: host: 'ABU-LAPTOP', ip: '192.168.0.2', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_102'
+Driver info: com.kms.katalon.selenium.driver.CChromeDriver
+Capabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 2.35.528161 (5b82f2d2aae0ca..., userDataDir: C:\Users\AJOBAY~1.DAS\AppDa...}, cssSelectorsEnabled: true, databaseEnabled: false, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, rotatable: false, setWindowRect: true, takesHeapSnapshot: true, takesScreenshot: true, unexpectedAlertBehaviour: , unhandledPromptBehavior: , version: 65.0.3325.181, webStorageEnabled: true}
+Session ID: ab6246cdf46a1bc81c195c8be246ba7e)]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2018-04-27 00:54:38 - [TEST_SUITE][FAILED] - RegressionTest: Test Cases/Drive/TC - Google Drive Upload FAILED because (of) No alert found]]></system-out>
+      <system-err><![CDATA[2018-04-27 00:54:38 - [TEST_SUITE][FAILED] - RegressionTest: Test Cases/Drive/TC - Google Drive Upload FAILED because (of) No alert found]]></system-err>
+   </testsuite>
+</testsuites>

@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="Quick Test" time="30" tests="2" failures="0" errors="0">
+   <testsuite name="Quick Test" tests="2" failures="0" errors="0" time="30" timestamp="2018-04-26 22:01:05" hostname="ajobayer - Abu-laptop.dashingprint.local" id="Test Suites/Quick Test">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="C:\\Users\\ajobayer.DASHINGPRINT\\Katalon Studio\\TestProject Katalon\\Reports\\Quick Test\\20180426_220103"/>
+         <property name="logFiles" value="C:\\Users\\ajobayer.DASHINGPRINT\\Katalon Studio\\TestProject Katalon\\Reports\\Quick Test\\20180426_220103\\execution0.log"/>
+         <property name="attachments" value=""/>
+         <property name="hostName" value="ajobayer - Abu-laptop.dashingprint.local"/>
+         <property name="os" value="Windows 10 64bit"/>
+         <property name="katalonVersion" value="5.4.1.1"/>
+         <property name="browser" value="Chrome 65.0.3325.181"/>
+         <property name="hostAddress" value="192.168.0.2"/>
+         <property name="sessionId" value="cbbda30c4f46631b4ac844a0d1129db6"/>
+         <property name="seleniumVersion" value="3.7.1"/>
+         <property name="proxyInformation" value="ProxyInformation{proxyOption=NO_PROXY, proxyServerType=HTTP, password=, proxyServerAddress=, proxyServerPort=0}"/>
+         <property name="platform" value="Windows 10"/>
+      </properties>
+      <testcase name="Test Cases/Gmail/TC - Login to Gmail" classname="Test Cases/Gmail/TC - Login to Gmail" status="PASSED">
+         <system-out><![CDATA[2018-04-26 22:01:05 - [TEST_CASE][PASSED] - Test Cases/Gmail/TC - Login to Gmail: Test Cases/Gmail/TC - Login to Gmail
+
+2018-04-26 22:01:06 - [TEST_STEP][PASSED] - openBrowser: Browser is opened with url: 'www.gmail.com'
+
+2018-04-26 22:01:14 - [MESSAGE][PASSED] - Browser is opened with url: 'www.gmail.com'
+
+2018-04-26 22:01:14 - [TEST_STEP][PASSED] - maximizeWindow: Current window maximized
+
+2018-04-26 22:01:16 - [MESSAGE][PASSED] - Current window maximized
+
+2018-04-26 22:01:16 - [TEST_STEP][PASSED] - waitForPageLoad: Wait for page load successfully
+
+2018-04-26 22:01:16 - [MESSAGE][PASSED] - Wait for page load successfully
+
+2018-04-26 22:01:16 - [TEST_STEP][PASSED] - verifyElementPresent: Object 'Object Repository/GmailLoginPage/EmailField' is present
+
+2018-04-26 22:01:16 - [MESSAGE][PASSED] - Object 'Object Repository/GmailLoginPage/EmailField' is present
+
+2018-04-26 22:01:16 - [TEST_STEP][PASSED] - sendKeys: Keys 'abukatalon1@gmail.com' sent to object: 'Object Repository/GmailLoginPage/EmailField'
+
+2018-04-26 22:01:17 - [MESSAGE][PASSED] - Keys 'abukatalon1@gmail.com' sent to object: 'Object Repository/GmailLoginPage/EmailField'
+
+2018-04-26 22:01:17 - [TEST_STEP][PASSED] - delay: Delayed 2 second(s)
+
+2018-04-26 22:01:19 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2018-04-26 22:01:19 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/GmailLoginPage/NextButton' is clicked on
+
+2018-04-26 22:01:19 - [MESSAGE][PASSED] - Object: 'Object Repository/GmailLoginPage/NextButton' is clicked on
+
+2018-04-26 22:01:19 - [TEST_STEP][PASSED] - waitForPageLoad: Wait for page load successfully
+
+2018-04-26 22:01:19 - [MESSAGE][PASSED] - Wait for page load successfully
+
+2018-04-26 22:01:19 - [TEST_STEP][PASSED] - verifyElementPresent: Object 'Object Repository/GmailLoginPage/PasswordField' is present
+
+2018-04-26 22:01:19 - [MESSAGE][PASSED] - Object 'Object Repository/GmailLoginPage/PasswordField' is present
+
+2018-04-26 22:01:19 - [TEST_STEP][PASSED] - sendKeys: Keys 'judas4321' sent to object: 'Object Repository/GmailLoginPage/PasswordField'
+
+2018-04-26 22:01:20 - [MESSAGE][PASSED] - Keys 'judas4321' sent to object: 'Object Repository/GmailLoginPage/PasswordField'
+
+2018-04-26 22:01:20 - [TEST_STEP][PASSED] - delay: Delayed 2 second(s)
+
+2018-04-26 22:01:22 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2018-04-26 22:01:22 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/GmailLoginPage/NextButton' is clicked on
+
+2018-04-26 22:01:23 - [MESSAGE][PASSED] - Object: 'Object Repository/GmailLoginPage/NextButton' is clicked on]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Gmail/TC - Logout from Gmail" classname="Test Cases/Gmail/TC - Logout from Gmail" status="PASSED">
+         <system-out><![CDATA[2018-04-26 22:01:23 - [TEST_CASE][PASSED] - Test Cases/Gmail/TC - Logout from Gmail: Test Cases/Gmail/TC - Logout from Gmail
+
+2018-04-26 22:01:23 - [TEST_STEP][PASSED] - delay: Delayed 2 second(s)
+
+2018-04-26 22:01:25 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2018-04-26 22:01:25 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/GmailHomePage/GmailAccountBttn' is clicked on
+
+2018-04-26 22:01:27 - [MESSAGE][PASSED] - Object: 'Object Repository/GmailHomePage/GmailAccountBttn' is clicked on
+
+2018-04-26 22:01:27 - [TEST_STEP][PASSED] - delay: Delayed 2 second(s)
+
+2018-04-26 22:01:29 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2018-04-26 22:01:29 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/GmailHomePage/SignOutBttn' is clicked on
+
+2018-04-26 22:01:32 - [MESSAGE][PASSED] - Object: 'Object Repository/GmailHomePage/SignOutBttn' is clicked on
+
+2018-04-26 22:01:32 - [TEST_STEP][PASSED] - delay: Delayed 2 second(s)
+
+2018-04-26 22:01:34 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2018-04-26 22:01:34 - [TEST_STEP][PASSED] - closeBrowser: Browser is closed
+
+2018-04-26 22:01:35 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2018-04-26 22:01:05 - [TEST_SUITE][PASSED] - Quick Test: Test Cases/Gmail/TC - Logout from Gmail]]></system-out>
+      <system-err><![CDATA[]]></system-err>
+   </testsuite>
+</testsuites>

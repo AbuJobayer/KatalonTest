@@ -1,0 +1,24 @@
+Suite/Test/Step Name,Browser,Description,Start time,End time,Duration,Status
+Quick Test,Chrome 65.0.3325.181,,2018-04-26 22:01:05,2018-04-26 22:01:35,30.358s,PASSED
+,,,,,,
+Test Cases/Gmail/TC - Login to Gmail,Chrome 65.0.3325.181,Gmail Login Screen,2018-04-26 22:01:05,2018-04-26 22:01:23,17.435s,PASSED
+openBrowser,Chrome 65.0.3325.181,Open the Gmail URL,2018-04-26 22:01:06,2018-04-26 22:01:14,8.693s,PASSED
+maximizeWindow,Chrome 65.0.3325.181,,2018-04-26 22:01:14,2018-04-26 22:01:16,1.282s,PASSED
+waitForPageLoad,Chrome 65.0.3325.181,,2018-04-26 22:01:16,2018-04-26 22:01:16,0.168s,PASSED
+verifyElementPresent,Chrome 65.0.3325.181,Verify the Email Input field,2018-04-26 22:01:16,2018-04-26 22:01:16,0.230s,PASSED
+sendKeys,Chrome 65.0.3325.181,Enter the email address,2018-04-26 22:01:16,2018-04-26 22:01:17,0.379s,PASSED
+delay,Chrome 65.0.3325.181,,2018-04-26 22:01:17,2018-04-26 22:01:19,2.051s,PASSED
+click,Chrome 65.0.3325.181,Click on Next Button,2018-04-26 22:01:19,2018-04-26 22:01:19,0.196s,PASSED
+waitForPageLoad,Chrome 65.0.3325.181,,2018-04-26 22:01:19,2018-04-26 22:01:19,0.020s,PASSED
+verifyElementPresent,Chrome 65.0.3325.181,Verify Password Input Field,2018-04-26 22:01:19,2018-04-26 22:01:19,0.548s,PASSED
+sendKeys,Chrome 65.0.3325.181,Add Password from Excel Datasource in Password Field,2018-04-26 22:01:19,2018-04-26 22:01:20,1.112s,PASSED
+delay,Chrome 65.0.3325.181,,2018-04-26 22:01:20,2018-04-26 22:01:22,2.004s,PASSED
+click,Chrome 65.0.3325.181,Click on Next Button,2018-04-26 22:01:22,2018-04-26 22:01:23,0.179s,PASSED
+,,,,,,
+Test Cases/Gmail/TC - Logout from Gmail,Chrome 65.0.3325.181,,2018-04-26 22:01:23,2018-04-26 22:01:35,12.315s,PASSED
+delay,Chrome 65.0.3325.181,,2018-04-26 22:01:23,2018-04-26 22:01:25,2.004s,PASSED
+click,Chrome 65.0.3325.181,Click on the Account Button,2018-04-26 22:01:25,2018-04-26 22:01:27,2.319s,PASSED
+delay,Chrome 65.0.3325.181,,2018-04-26 22:01:27,2018-04-26 22:01:29,2.003s,PASSED
+click,Chrome 65.0.3325.181,Click on the Signout button,2018-04-26 22:01:29,2018-04-26 22:01:32,2.679s,PASSED
+delay,Chrome 65.0.3325.181,,2018-04-26 22:01:32,2018-04-26 22:01:34,2.007s,PASSED
+closeBrowser,Chrome 65.0.3325.181,,2018-04-26 22:01:34,2018-04-26 22:01:35,0.814s,PASSED

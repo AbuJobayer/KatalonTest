@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Project>
+   <description>This is for Demo purpose</description>
+   <name>TestProject Katalon</name>
+   <tag></tag>
+   <UUID>d84489e3-42d8-4943-96c2-af1b55d267dc</UUID>
+   <migratedVersion>5.4.0</migratedVersion>
+   <pageLoadTimeout>0</pageLoadTimeout>
+   <recentExpandedTreeEntityIds>Test Cases</recentExpandedTreeEntityIds>
+   <recentExpandedTreeEntityIds>Test Cases/Gmail</recentExpandedTreeEntityIds>
+   <recentExpandedTreeEntityIds>Object Repository</recentExpandedTreeEntityIds>
+   <recentExpandedTreeEntityIds>Object Repository/GmailLoginPage</recentExpandedTreeEntityIds>
+   <recentExpandedTreeEntityIds>Test Suites</recentExpandedTreeEntityIds>
+   <recentExpandedTreeEntityIds>Keywords</recentExpandedTreeEntityIds>
+   <recentExpandedTreeEntityIds>Reports</recentExpandedTreeEntityIds>
+   <recentExpandedTreeEntityIds>Reports/RegressionTest</recentExpandedTreeEntityIds>
+   <recentExpandedTreeEntityIds>Profiles</recentExpandedTreeEntityIds>
+</Project>

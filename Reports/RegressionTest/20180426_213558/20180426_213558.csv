@@ -1,0 +1,58 @@
+Suite/Test/Step Name,Browser,Description,Start time,End time,Duration,Status
+RegressionTest,Chrome 65.0.3325.181,,2018-04-26 21:36:00,2018-04-26 21:37:51,1m - 50.925s,FAILED
+,,,,,,
+Test Cases/Gmail/TC - Login to Gmail,Chrome 65.0.3325.181,Gmail Login Screen,2018-04-26 21:36:01,2018-04-26 21:36:17,16.580s,PASSED
+openBrowser,Chrome 65.0.3325.181,Open the Gmail URL,2018-04-26 21:36:01,2018-04-26 21:36:09,7.493s,PASSED
+maximizeWindow,Chrome 65.0.3325.181,,2018-04-26 21:36:09,2018-04-26 21:36:10,1.268s,PASSED
+waitForPageLoad,Chrome 65.0.3325.181,,2018-04-26 21:36:10,2018-04-26 21:36:10,0.153s,PASSED
+verifyElementPresent,Chrome 65.0.3325.181,Verify the Email Input field,2018-04-26 21:36:10,2018-04-26 21:36:10,0.099s,PASSED
+sendKeys,Chrome 65.0.3325.181,Enter the email address,2018-04-26 21:36:10,2018-04-26 21:36:11,0.361s,PASSED
+delay,Chrome 65.0.3325.181,,2018-04-26 21:36:11,2018-04-26 21:36:13,2.054s,PASSED
+click,Chrome 65.0.3325.181,Click on Next Button,2018-04-26 21:36:13,2018-04-26 21:36:13,0.401s,PASSED
+waitForPageLoad,Chrome 65.0.3325.181,,2018-04-26 21:36:13,2018-04-26 21:36:13,0.011s,PASSED
+verifyElementPresent,Chrome 65.0.3325.181,Verify Password Input Field,2018-04-26 21:36:13,2018-04-26 21:36:14,0.552s,PASSED
+sendKeys,Chrome 65.0.3325.181,Add Password from Excel Datasource in Password Field,2018-04-26 21:36:14,2018-04-26 21:36:15,1.399s,PASSED
+delay,Chrome 65.0.3325.181,,2018-04-26 21:36:15,2018-04-26 21:36:17,2.004s,PASSED
+click,Chrome 65.0.3325.181,Click on Next Button,2018-04-26 21:36:17,2018-04-26 21:36:17,0.170s,PASSED
+,,,,,,
+Test Cases/Gmail/TC - Logout from Gmail,Chrome 65.0.3325.181,,2018-04-26 21:36:17,2018-04-26 21:37:00,42.462s,FAILED
+click,Chrome 65.0.3325.181,Click on the Account Button,2018-04-26 21:36:18,2018-04-26 21:36:22,4.327s,PASSED
+delay,Chrome 65.0.3325.181,,2018-04-26 21:36:22,2018-04-26 21:36:24,2.004s,PASSED
+click,Chrome 65.0.3325.181,Click on the Signout button,2018-04-26 21:36:24,2018-04-26 21:36:27,2.515s,PASSED
+delay,Chrome 65.0.3325.181,,2018-04-26 21:36:27,2018-04-26 21:36:29,2.004s,PASSED
+waitForAlert,Chrome 65.0.3325.181,Wait for confirmation Popup,2018-04-26 21:36:29,2018-04-26 21:36:59,30.691s,PASSED
+acceptAlert,Chrome 65.0.3325.181,Leave the Gmail account,2018-04-26 21:36:59,2018-04-26 21:37:00,0.409s,FAILED
+,,,,,,
+Test Cases/Drive/TC - Google Drive Upload Delete,Chrome 65.0.3325.181,Test Steps to open the Google Drive from the Gmail Account,2018-04-26 21:37:00,2018-04-26 21:37:30,30.033s,FAILED
+com.gmail.authentication.GmailAuthentication.GmailLogin,Chrome 65.0.3325.181,,2018-04-26 21:37:00,2018-04-26 21:37:09,9.355s,PASSED
+waitForElementPresent,Chrome 65.0.3325.181,Wait for the Google Apps button tobe appeard,2018-04-26 21:37:09,2018-04-26 21:37:13,3.760s,PASSED
+click,Chrome 65.0.3325.181,Click on the Google Apps Button,2018-04-26 21:37:13,2018-04-26 21:37:14,0.589s,PASSED
+delay,Chrome 65.0.3325.181,,2018-04-26 21:37:14,2018-04-26 21:37:16,2.003s,PASSED
+click,Chrome 65.0.3325.181,Click on the Google Apps Button,2018-04-26 21:37:16,2018-04-26 21:37:16,0.444s,PASSED
+delay,Chrome 65.0.3325.181,,2018-04-26 21:37:16,2018-04-26 21:37:18,2.003s,PASSED
+switchToWindowIndex,Chrome 65.0.3325.181,Switch to new window,2018-04-26 21:37:18,2018-04-26 21:37:18,0.033s,PASSED
+click,Chrome 65.0.3325.181,Clcik on the New Button,2018-04-26 21:37:18,2018-04-26 21:37:20,1.852s,PASSED
+click,Chrome 65.0.3325.181,,2018-04-26 21:37:20,2018-04-26 21:37:21,0.492s,PASSED
+delay,Chrome 65.0.3325.181,,2018-04-26 21:37:21,2018-04-26 21:37:23,2.004s,PASSED
+"Statement - Autoit_Fileupload = ""C:\Autoit\File_upload.exe""",Chrome 65.0.3325.181,Run Autoit Script to handle Windows upload functionality,2018-04-26 21:37:23,2018-04-26 21:37:23,0.004s,PASSED
+Statement - java.lang.Runtime.getRuntime().exec(Autoit_Fileupload),Chrome 65.0.3325.181,,2018-04-26 21:37:23,2018-04-26 21:37:23,0.056s,PASSED
+Statement - java.lang.Thread.sleep(3000),Chrome 65.0.3325.181,,2018-04-26 21:37:23,2018-04-26 21:37:26,3.013s,PASSED
+waitForElementPresent,Chrome 65.0.3325.181,Wait for the image file to be loaded,2018-04-26 21:37:26,2018-04-26 21:37:26,0.034s,PASSED
+rightClick,Chrome 65.0.3325.181,Right Mouse click on the uploaded file,2018-04-26 21:37:26,2018-04-26 21:37:26,0.449s,PASSED
+delay,Chrome 65.0.3325.181,,2018-04-26 21:37:26,2018-04-26 21:37:28,2.003s,PASSED
+click,Chrome 65.0.3325.181,,2018-04-26 21:37:28,2018-04-26 21:37:29,0.487s,FAILED
+closeBrowser,Chrome 65.0.3325.181,,2018-04-26 21:37:29,2018-04-26 21:37:30,0.996s,PASSED
+switchToWindowIndex,Chrome 65.0.3325.181,,2018-04-26 21:37:30,2018-04-26 21:37:30,0.010s,FAILED
+com.gmail.authentication.GmailAuthentication.GmailLogout,Chrome 65.0.3325.181,,2018-04-26 21:37:30,2018-04-26 21:37:30,0.054s,FAILED
+,,,,,,
+Test Cases/Gmail/TC - Compose And Send Email,Chrome 65.0.3325.181,,2018-04-26 21:37:30,2018-04-26 21:37:51,21.197s,PASSED
+com.gmail.authentication.GmailAuthentication.GmailLogin,Chrome 65.0.3325.181,,2018-04-26 21:37:30,2018-04-26 21:37:39,8.827s,PASSED
+verifyElementPresent,Chrome 65.0.3325.181,Verrify the Email Compose Button,2018-04-26 21:37:39,2018-04-26 21:37:43,4.135s,PASSED
+click,Chrome 65.0.3325.181,Click on the Compose Button,2018-04-26 21:37:43,2018-04-26 21:37:43,0.160s,PASSED
+verifyElementPresent,Chrome 65.0.3325.181,Verify Recipients Field,2018-04-26 21:37:43,2018-04-26 21:37:44,1.195s,PASSED
+sendKeys,Chrome 65.0.3325.181,Add the Recipient's Email address from Excel Data Source,2018-04-26 21:37:44,2018-04-26 21:37:45,1.038s,PASSED
+sendKeys,Chrome 65.0.3325.181,Add the Subject of the email,2018-04-26 21:37:45,2018-04-26 21:37:47,1.207s,PASSED
+sendKeys,Chrome 65.0.3325.181,Add Email content,2018-04-26 21:37:47,2018-04-26 21:37:47,0.753s,PASSED
+delay,Chrome 65.0.3325.181,,2018-04-26 21:37:47,2018-04-26 21:37:49,2.002s,PASSED
+click,Chrome 65.0.3325.181,Click on the Send Button,2018-04-26 21:37:49,2018-04-26 21:37:50,0.193s,PASSED
+com.gmail.authentication.GmailAuthentication.GmailLogout,Chrome 65.0.3325.181,,2018-04-26 21:37:50,2018-04-26 21:37:51,1.238s,PASSED

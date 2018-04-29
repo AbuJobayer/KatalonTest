@@ -1,0 +1,371 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="RegressionTest" time="110" tests="2" failures="2" errors="0">
+   <testsuite name="RegressionTest" tests="2" failures="2" errors="0" time="110" timestamp="2018-04-26 21:36:00" hostname="ajobayer - Abu-laptop.dashingprint.local" id="Test Suites/RegressionTest">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="C:\\Users\\ajobayer.DASHINGPRINT\\Katalon Studio\\TestProject Katalon\\Reports\\RegressionTest\\20180426_213558"/>
+         <property name="logFiles" value="C:\\Users\\ajobayer.DASHINGPRINT\\Katalon Studio\\TestProject Katalon\\Reports\\RegressionTest\\20180426_213558\\execution0.log"/>
+         <property name="attachments" value="C:\\Users\\ajobayer.DASHINGPRINT\\Katalon Studio\\TestProject Katalon\\Reports\\RegressionTest\\20180426_213558\\1524742619768.png, C:\\Users\\ajobayer.DASHINGPRINT\\Katalon Studio\\TestProject Katalon\\Reports\\RegressionTest\\20180426_213558\\1524742648708.png"/>
+         <property name="hostName" value="ajobayer - Abu-laptop.dashingprint.local"/>
+         <property name="os" value="Windows 10 64bit"/>
+         <property name="katalonVersion" value="5.4.1.1"/>
+         <property name="browser" value="Chrome 65.0.3325.181"/>
+         <property name="hostAddress" value="192.168.0.2"/>
+         <property name="sessionId" value="a587a4ab687d6c64d266b776929f20f5"/>
+         <property name="seleniumVersion" value="3.7.1"/>
+         <property name="proxyInformation" value="ProxyInformation{proxyOption=NO_PROXY, proxyServerType=HTTP, password=, proxyServerAddress=, proxyServerPort=0}"/>
+         <property name="platform" value="Windows 10"/>
+      </properties>
+      <testcase name="Test Cases/Gmail/TC - Login to Gmail" classname="Test Cases/Gmail/TC - Login to Gmail" status="PASSED">
+         <system-out><![CDATA[2018-04-26 21:36:01 - [TEST_CASE][PASSED] - Test Cases/Gmail/TC - Login to Gmail: Test Cases/Gmail/TC - Login to Gmail
+
+2018-04-26 21:36:01 - [TEST_STEP][PASSED] - openBrowser: Browser is opened with url: 'www.gmail.com'
+
+2018-04-26 21:36:09 - [MESSAGE][PASSED] - Browser is opened with url: 'www.gmail.com'
+
+2018-04-26 21:36:09 - [TEST_STEP][PASSED] - maximizeWindow: Current window maximized
+
+2018-04-26 21:36:10 - [MESSAGE][PASSED] - Current window maximized
+
+2018-04-26 21:36:10 - [TEST_STEP][PASSED] - waitForPageLoad: Wait for page load successfully
+
+2018-04-26 21:36:10 - [MESSAGE][PASSED] - Wait for page load successfully
+
+2018-04-26 21:36:10 - [TEST_STEP][PASSED] - verifyElementPresent: Object 'Object Repository/GmailLoginPage/EmailField' is present
+
+2018-04-26 21:36:10 - [MESSAGE][PASSED] - Object 'Object Repository/GmailLoginPage/EmailField' is present
+
+2018-04-26 21:36:10 - [TEST_STEP][PASSED] - sendKeys: Keys 'abukatalon1@gmail.com' sent to object: 'Object Repository/GmailLoginPage/EmailField'
+
+2018-04-26 21:36:11 - [MESSAGE][PASSED] - Keys 'abukatalon1@gmail.com' sent to object: 'Object Repository/GmailLoginPage/EmailField'
+
+2018-04-26 21:36:11 - [TEST_STEP][PASSED] - delay: Delayed 2 second(s)
+
+2018-04-26 21:36:13 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2018-04-26 21:36:13 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/GmailLoginPage/NextButton' is clicked on
+
+2018-04-26 21:36:13 - [MESSAGE][PASSED] - Object: 'Object Repository/GmailLoginPage/NextButton' is clicked on
+
+2018-04-26 21:36:13 - [TEST_STEP][PASSED] - waitForPageLoad: Wait for page load successfully
+
+2018-04-26 21:36:13 - [MESSAGE][PASSED] - Wait for page load successfully
+
+2018-04-26 21:36:13 - [TEST_STEP][PASSED] - verifyElementPresent: Object 'Object Repository/GmailLoginPage/PasswordField' is present
+
+2018-04-26 21:36:14 - [MESSAGE][PASSED] - Object 'Object Repository/GmailLoginPage/PasswordField' is present
+
+2018-04-26 21:36:14 - [TEST_STEP][PASSED] - sendKeys: Keys 'judas4321' sent to object: 'Object Repository/GmailLoginPage/PasswordField'
+
+2018-04-26 21:36:15 - [MESSAGE][PASSED] - Keys 'judas4321' sent to object: 'Object Repository/GmailLoginPage/PasswordField'
+
+2018-04-26 21:36:15 - [TEST_STEP][PASSED] - delay: Delayed 2 second(s)
+
+2018-04-26 21:36:17 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2018-04-26 21:36:17 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/GmailLoginPage/NextButton' is clicked on
+
+2018-04-26 21:36:17 - [MESSAGE][PASSED] - Object: 'Object Repository/GmailLoginPage/NextButton' is clicked on]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Gmail/TC - Logout from Gmail" classname="Test Cases/Gmail/TC - Logout from Gmail" status="FAILED">
+         <failure type="FAILED" message="No alert found"/>
+         <system-out><![CDATA[2018-04-26 21:36:17 - [TEST_CASE][FAILED] - Test Cases/Gmail/TC - Logout from Gmail: Test Cases/Gmail/TC - Logout from Gmail FAILED because (of) No alert found
+
+2018-04-26 21:36:18 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/GmailHomePage/GmailAccountBttn' is clicked on
+
+2018-04-26 21:36:22 - [MESSAGE][PASSED] - Object: 'Object Repository/GmailHomePage/GmailAccountBttn' is clicked on
+
+2018-04-26 21:36:22 - [TEST_STEP][PASSED] - delay: Delayed 2 second(s)
+
+2018-04-26 21:36:24 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2018-04-26 21:36:24 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/GmailHomePage/SignOutBttn' is clicked on
+
+2018-04-26 21:36:27 - [MESSAGE][PASSED] - Object: 'Object Repository/GmailHomePage/SignOutBttn' is clicked on
+
+2018-04-26 21:36:27 - [TEST_STEP][PASSED] - delay: Delayed 2 second(s)
+
+2018-04-26 21:36:29 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2018-04-26 21:36:29 - [TEST_STEP][PASSED] - waitForAlert: No alert found after 30 second(s).
+
+2018-04-26 21:36:59 - [MESSAGE][WARNING] - No alert found after 30 second(s).
+
+2018-04-26 21:36:59 - [TEST_STEP][FAILED] - acceptAlert: No alert found
+
+2018-04-26 21:37:00 - [MESSAGE][FAILED] - No alert found
+[[ATTACHMENT|C:\\Users\\ajobayer.DASHINGPRINT\\Katalon Studio\\TestProject Katalon\\Reports\\RegressionTest\\20180426_213558\\1524742619768.png]]]]></system-out>
+         <system-err><![CDATA[2018-04-26 21:36:17 - [TEST_CASE][FAILED] - Test Cases/Gmail/TC - Logout from Gmail: Test Cases/Gmail/TC - Logout from Gmail FAILED because (of) No alert found]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Drive/TC - Google Drive Upload Delete" classname="Test Cases/Drive/TC - Google Drive Upload Delete" status="FAILED">
+         <failure type="FAILED" message="Unable to click on object 'Object Repository/GoogleDrive/Removebttn' (Root cause: org.openqa.selenium.ElementNotVisibleException: element not visible
+  (Session info: chrome=65.0.3325.181)
+  (Driver info: chromedriver=2.35.528161 (5b82f2d2aae0ca24b877009200ced9065a772e73),platform=Windows NT 10.0.14393 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 0 milliseconds
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:07:36.161Z'
+System info: host: 'ABU-LAPTOP', ip: '192.168.0.2', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_102'
+Driver info: com.kms.katalon.selenium.driver.CChromeDriver
+Capabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 2.35.528161 (5b82f2d2aae0ca..., userDataDir: C:\Users\AJOBAY~1.DAS\AppDa...}, cssSelectorsEnabled: true, databaseEnabled: false, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, rotatable: false, setWindowRect: true, takesHeapSnapshot: true, takesScreenshot: true, unexpectedAlertBehaviour: , unhandledPromptBehavior: , version: 65.0.3325.181, webStorageEnabled: true}
+Session ID: 0925a4fd383456a7460888d592145c3b)"/>
+         <system-out><![CDATA[2018-04-26 21:37:00 - [TEST_CASE][FAILED] - Test Cases/Drive/TC - Google Drive Upload Delete: Test Cases/Drive/TC - Google Drive Upload Delete FAILED because (of) Unable to click on object 'Object Repository/GoogleDrive/Removebttn' (Root cause: org.openqa.selenium.ElementNotVisibleException: element not visible
+  (Session info: chrome=65.0.3325.181)
+  (Driver info: chromedriver=2.35.528161 (5b82f2d2aae0ca24b877009200ced9065a772e73),platform=Windows NT 10.0.14393 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 0 milliseconds
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:07:36.161Z'
+System info: host: 'ABU-LAPTOP', ip: '192.168.0.2', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_102'
+Driver info: com.kms.katalon.selenium.driver.CChromeDriver
+Capabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 2.35.528161 (5b82f2d2aae0ca..., userDataDir: C:\Users\AJOBAY~1.DAS\AppDa...}, cssSelectorsEnabled: true, databaseEnabled: false, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, rotatable: false, setWindowRect: true, takesHeapSnapshot: true, takesScreenshot: true, unexpectedAlertBehaviour: , unhandledPromptBehavior: , version: 65.0.3325.181, webStorageEnabled: true}
+Session ID: 0925a4fd383456a7460888d592145c3b)
+
+2018-04-26 21:37:00 - [TEST_STEP][PASSED] - com.gmail.authentication.GmailAuthentication.GmailLogin: com.gmail.authentication.GmailAuthentication.GmailLogin is PASSED
+
+2018-04-26 21:37:00 - [MESSAGE][WARNING] - A browser is already opened. Closing browser and opening a new one
+
+2018-04-26 21:37:06 - [MESSAGE][PASSED] - Browser is opened with url: 'www.gmail.com'
+
+2018-04-26 21:37:06 - [MESSAGE][PASSED] - Wait for page load successfully
+
+2018-04-26 21:37:08 - [MESSAGE][PASSED] - Current window maximized
+
+2018-04-26 21:37:08 - [MESSAGE][PASSED] - Keys 'abukatalon1@gmail.com' sent to object: 'Object Repository/GmailLoginPage/EmailField'
+
+2018-04-26 21:37:08 - [MESSAGE][PASSED] - Object: 'Object Repository/GmailLoginPage/NextButton' is clicked on
+
+2018-04-26 21:37:09 - [MESSAGE][PASSED] - Object 'Object Repository/GmailLoginPage/PasswordField' is present
+
+2018-04-26 21:37:09 - [MESSAGE][PASSED] - Keys 'judas4321' sent to object: 'Object Repository/GmailLoginPage/PasswordField'
+
+2018-04-26 21:37:09 - [MESSAGE][PASSED] - Object: 'Object Repository/GmailLoginPage/NextButton' is clicked on
+
+2018-04-26 21:37:09 - [MESSAGE][PASSED] - com.gmail.authentication.GmailAuthentication.GmailLogin is PASSED
+
+2018-04-26 21:37:09 - [TEST_STEP][PASSED] - waitForElementPresent: Object 'Object Repository/GmailHomePage/GoogleAppsBttn' is present
+
+2018-04-26 21:37:13 - [MESSAGE][PASSED] - Object 'Object Repository/GmailHomePage/GoogleAppsBttn' is present
+
+2018-04-26 21:37:13 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/GmailHomePage/GoogleAppsBttn' is clicked on
+
+2018-04-26 21:37:14 - [MESSAGE][PASSED] - Object: 'Object Repository/GmailHomePage/GoogleAppsBttn' is clicked on
+
+2018-04-26 21:37:14 - [TEST_STEP][PASSED] - delay: Delayed 2 second(s)
+
+2018-04-26 21:37:16 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2018-04-26 21:37:16 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/GmailHomePage/GoogleDriveBttn' is clicked on
+
+2018-04-26 21:37:16 - [MESSAGE][PASSED] - Object: 'Object Repository/GmailHomePage/GoogleDriveBttn' is clicked on
+
+2018-04-26 21:37:16 - [TEST_STEP][PASSED] - delay: Delayed 2 second(s)
+
+2018-04-26 21:37:18 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2018-04-26 21:37:18 - [TEST_STEP][PASSED] - switchToWindowIndex: Switched to window with index: '1'
+
+2018-04-26 21:37:18 - [MESSAGE][PASSED] - Switched to window with index: '1'
+
+2018-04-26 21:37:18 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/GoogleDrive/NewBttn' is clicked on
+
+2018-04-26 21:37:20 - [MESSAGE][PASSED] - Object: 'Object Repository/GoogleDrive/NewBttn' is clicked on
+
+2018-04-26 21:37:20 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/GoogleDrive/FileUpload' is clicked on
+
+2018-04-26 21:37:21 - [MESSAGE][PASSED] - Object: 'Object Repository/GoogleDrive/FileUpload' is clicked on
+
+2018-04-26 21:37:21 - [TEST_STEP][PASSED] - delay: Delayed 2 second(s)
+
+2018-04-26 21:37:23 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2018-04-26 21:37:23 - [TEST_STEP][PASSED] - Statement - Autoit_Fileupload = "C:\Autoit\File_upload.exe": null
+
+2018-04-26 21:37:23 - [TEST_STEP][PASSED] - Statement - java.lang.Runtime.getRuntime().exec(Autoit_Fileupload): null
+
+2018-04-26 21:37:23 - [TEST_STEP][PASSED] - Statement - java.lang.Thread.sleep(3000): null
+
+2018-04-26 21:37:26 - [TEST_STEP][PASSED] - waitForElementPresent: Object 'Object Repository/GoogleDrive/ImageFile' is present
+
+2018-04-26 21:37:26 - [MESSAGE][PASSED] - Object 'Object Repository/GoogleDrive/ImageFile' is present
+
+2018-04-26 21:37:26 - [TEST_STEP][PASSED] - rightClick: Object: 'Object Repository/GoogleDrive/ImageFile' is right clicked on
+
+2018-04-26 21:37:26 - [MESSAGE][PASSED] - Object: 'Object Repository/GoogleDrive/ImageFile' is right clicked on
+
+2018-04-26 21:37:26 - [TEST_STEP][PASSED] - delay: Delayed 2 second(s)
+
+2018-04-26 21:37:28 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2018-04-26 21:37:28 - [TEST_STEP][FAILED] - click: Unable to click on object 'Object Repository/GoogleDrive/Removebttn' (Root cause: org.openqa.selenium.ElementNotVisibleException: element not visible
+  (Session info: chrome=65.0.3325.181)
+  (Driver info: chromedriver=2.35.528161 (5b82f2d2aae0ca24b877009200ced9065a772e73),platform=Windows NT 10.0.14393 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 0 milliseconds
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:07:36.161Z'
+System info: host: 'ABU-LAPTOP', ip: '192.168.0.2', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_102'
+Driver info: com.kms.katalon.selenium.driver.CChromeDriver
+Capabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 2.35.528161 (5b82f2d2aae0ca..., userDataDir: C:\Users\AJOBAY~1.DAS\AppDa...}, cssSelectorsEnabled: true, databaseEnabled: false, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, rotatable: false, setWindowRect: true, takesHeapSnapshot: true, takesScreenshot: true, unexpectedAlertBehaviour: , unhandledPromptBehavior: , version: 65.0.3325.181, webStorageEnabled: true}
+Session ID: 0925a4fd383456a7460888d592145c3b)
+
+2018-04-26 21:37:29 - [MESSAGE][FAILED] - Unable to click on object 'Object Repository/GoogleDrive/Removebttn' (Root cause: org.openqa.selenium.ElementNotVisibleException: element not visible
+  (Session info: chrome=65.0.3325.181)
+  (Driver info: chromedriver=2.35.528161 (5b82f2d2aae0ca24b877009200ced9065a772e73),platform=Windows NT 10.0.14393 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 0 milliseconds
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:07:36.161Z'
+System info: host: 'ABU-LAPTOP', ip: '192.168.0.2', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_102'
+Driver info: com.kms.katalon.selenium.driver.CChromeDriver
+Capabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 2.35.528161 (5b82f2d2aae0ca..., userDataDir: C:\Users\AJOBAY~1.DAS\AppDa...}, cssSelectorsEnabled: true, databaseEnabled: false, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, rotatable: false, setWindowRect: true, takesHeapSnapshot: true, takesScreenshot: true, unexpectedAlertBehaviour: , unhandledPromptBehavior: , version: 65.0.3325.181, webStorageEnabled: true}
+Session ID: 0925a4fd383456a7460888d592145c3b)
+[[ATTACHMENT|C:\\Users\\ajobayer.DASHINGPRINT\\Katalon Studio\\TestProject Katalon\\Reports\\RegressionTest\\20180426_213558\\1524742648708.png]]
+
+2018-04-26 21:37:29 - [TEST_STEP][PASSED] - closeBrowser: Browser is closed
+
+2018-04-26 21:37:30 - [MESSAGE][PASSED] - Browser is closed
+
+2018-04-26 21:37:30 - [TEST_STEP][FAILED] - switchToWindowIndex: Unable to switch to window with index: '0' (Root cause: com.kms.katalon.core.webui.exception.BrowserNotOpenedException: Browser is not opened
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:07:36.161Z'
+System info: host: 'ABU-LAPTOP', ip: '192.168.0.2', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_102'
+Driver info: driver.version: unknown)
+
+2018-04-26 21:37:30 - [MESSAGE][WARNING] - Cannot take screenshot
+
+2018-04-26 21:37:30 - [MESSAGE][FAILED] - Unable to switch to window with index: '0' (Root cause: com.kms.katalon.core.webui.exception.BrowserNotOpenedException: Browser is not opened
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:07:36.161Z'
+System info: host: 'ABU-LAPTOP', ip: '192.168.0.2', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_102'
+Driver info: driver.version: unknown)
+
+2018-04-26 21:37:30 - [TEST_STEP][FAILED] - com.gmail.authentication.GmailAuthentication.GmailLogout: Unable to switch to window with index: '0' (Root cause: com.kms.katalon.core.webui.exception.BrowserNotOpenedException: Browser is not opened
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:07:36.161Z'
+System info: host: 'ABU-LAPTOP', ip: '192.168.0.2', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_102'
+Driver info: driver.version: unknown)
+
+2018-04-26 21:37:30 - [MESSAGE][WARNING] - Switching to default content failed because of: com.kms.katalon.core.webui.exception.BrowserNotOpenedException: Browser is not opened
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:07:36.161Z'
+System info: host: 'ABU-LAPTOP', ip: '192.168.0.2', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_102'
+Driver info: driver.version: unknown
+
+2018-04-26 21:37:30 - [MESSAGE][WARNING] - Cannot take screenshot
+
+2018-04-26 21:37:30 - [MESSAGE][FAILED] - Unable to switch to window with index: '0' (Root cause: com.kms.katalon.core.webui.exception.BrowserNotOpenedException: Browser is not opened
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:07:36.161Z'
+System info: host: 'ABU-LAPTOP', ip: '192.168.0.2', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_102'
+Driver info: driver.version: unknown)
+
+2018-04-26 21:37:30 - [MESSAGE][WARNING] - Cannot take screenshot
+
+2018-04-26 21:37:30 - [MESSAGE][FAILED] - Unable to click on object 'Object Repository/GmailHomePage/GmailAccountBttn' (Root cause: com.kms.katalon.core.webui.exception.BrowserNotOpenedException: Browser is not opened
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:07:36.161Z'
+System info: host: 'ABU-LAPTOP', ip: '192.168.0.2', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_102'
+Driver info: driver.version: unknown)
+
+2018-04-26 21:37:30 - [MESSAGE][WARNING] - Cannot take screenshot
+
+2018-04-26 21:37:30 - [MESSAGE][FAILED] - Unable to click on object 'Object Repository/GmailHomePage/SignOutBttn' (Root cause: com.kms.katalon.core.webui.exception.BrowserNotOpenedException: Browser is not opened
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:07:36.161Z'
+System info: host: 'ABU-LAPTOP', ip: '192.168.0.2', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_102'
+Driver info: driver.version: unknown)
+
+2018-04-26 21:37:30 - [MESSAGE][WARNING] - Cannot take screenshot
+
+2018-04-26 21:37:30 - [MESSAGE][FAILED] - Unable to wait for alert (Root cause: com.kms.katalon.core.webui.exception.BrowserNotOpenedException: Browser is not opened
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:07:36.161Z'
+System info: host: 'ABU-LAPTOP', ip: '192.168.0.2', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_102'
+Driver info: driver.version: unknown)
+
+2018-04-26 21:37:30 - [MESSAGE][WARNING] - Cannot take screenshot
+
+2018-04-26 21:37:30 - [MESSAGE][FAILED] - Unable to accept alert (Root cause: com.kms.katalon.core.webui.exception.BrowserNotOpenedException: Browser is not opened
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:07:36.161Z'
+System info: host: 'ABU-LAPTOP', ip: '192.168.0.2', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_102'
+Driver info: driver.version: unknown)
+
+2018-04-26 21:37:30 - [MESSAGE][PASSED] - Browser is closed
+
+2018-04-26 21:37:30 - [MESSAGE][FAILED] - Unable to switch to window with index: '0' (Root cause: com.kms.katalon.core.webui.exception.BrowserNotOpenedException: Browser is not opened
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:07:36.161Z'
+System info: host: 'ABU-LAPTOP', ip: '192.168.0.2', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_102'
+Driver info: driver.version: unknown)]]></system-out>
+         <system-err><![CDATA[2018-04-26 21:37:00 - [TEST_CASE][FAILED] - Test Cases/Drive/TC - Google Drive Upload Delete: Test Cases/Drive/TC - Google Drive Upload Delete FAILED because (of) Unable to click on object 'Object Repository/GoogleDrive/Removebttn' (Root cause: org.openqa.selenium.ElementNotVisibleException: element not visible
+  (Session info: chrome=65.0.3325.181)
+  (Driver info: chromedriver=2.35.528161 (5b82f2d2aae0ca24b877009200ced9065a772e73),platform=Windows NT 10.0.14393 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 0 milliseconds
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:07:36.161Z'
+System info: host: 'ABU-LAPTOP', ip: '192.168.0.2', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_102'
+Driver info: com.kms.katalon.selenium.driver.CChromeDriver
+Capabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 2.35.528161 (5b82f2d2aae0ca..., userDataDir: C:\Users\AJOBAY~1.DAS\AppDa...}, cssSelectorsEnabled: true, databaseEnabled: false, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, rotatable: false, setWindowRect: true, takesHeapSnapshot: true, takesScreenshot: true, unexpectedAlertBehaviour: , unhandledPromptBehavior: , version: 65.0.3325.181, webStorageEnabled: true}
+Session ID: 0925a4fd383456a7460888d592145c3b)]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Gmail/TC - Compose And Send Email" classname="Test Cases/Gmail/TC - Compose And Send Email" status="PASSED">
+         <system-out><![CDATA[2018-04-26 21:37:30 - [TEST_CASE][PASSED] - Test Cases/Gmail/TC - Compose And Send Email: Test Cases/Gmail/TC - Compose And Send Email
+
+2018-04-26 21:37:30 - [TEST_STEP][PASSED] - com.gmail.authentication.GmailAuthentication.GmailLogin: com.gmail.authentication.GmailAuthentication.GmailLogin is PASSED
+
+2018-04-26 21:37:36 - [MESSAGE][PASSED] - Browser is opened with url: 'www.gmail.com'
+
+2018-04-26 21:37:36 - [MESSAGE][PASSED] - Wait for page load successfully
+
+2018-04-26 21:37:37 - [MESSAGE][PASSED] - Current window maximized
+
+2018-04-26 21:37:38 - [MESSAGE][PASSED] - Keys 'abukatalon1@gmail.com' sent to object: 'Object Repository/GmailLoginPage/EmailField'
+
+2018-04-26 21:37:38 - [MESSAGE][PASSED] - Object: 'Object Repository/GmailLoginPage/NextButton' is clicked on
+
+2018-04-26 21:37:39 - [MESSAGE][PASSED] - Object 'Object Repository/GmailLoginPage/PasswordField' is present
+
+2018-04-26 21:37:39 - [MESSAGE][PASSED] - Keys 'judas4321' sent to object: 'Object Repository/GmailLoginPage/PasswordField'
+
+2018-04-26 21:37:39 - [MESSAGE][PASSED] - Object: 'Object Repository/GmailLoginPage/NextButton' is clicked on
+
+2018-04-26 21:37:39 - [MESSAGE][PASSED] - com.gmail.authentication.GmailAuthentication.GmailLogin is PASSED
+
+2018-04-26 21:37:39 - [TEST_STEP][PASSED] - verifyElementPresent: Object 'Object Repository/GmailHomePage/ComposeBttn' is present
+
+2018-04-26 21:37:43 - [MESSAGE][PASSED] - Object 'Object Repository/GmailHomePage/ComposeBttn' is present
+
+2018-04-26 21:37:43 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/GmailHomePage/ComposeBttn' is clicked on
+
+2018-04-26 21:37:43 - [MESSAGE][PASSED] - Object: 'Object Repository/GmailHomePage/ComposeBttn' is clicked on
+
+2018-04-26 21:37:43 - [TEST_STEP][PASSED] - verifyElementPresent: Object 'Object Repository/GmailHomePage/RecipientsField' is present
+
+2018-04-26 21:37:44 - [MESSAGE][PASSED] - Object 'Object Repository/GmailHomePage/RecipientsField' is present
+
+2018-04-26 21:37:44 - [TEST_STEP][PASSED] - sendKeys: Keys 'abukatalon1@gmail.com' sent to object: 'Object Repository/GmailHomePage/RecipientsField'
+
+2018-04-26 21:37:45 - [MESSAGE][PASSED] - Keys 'abukatalon1@gmail.com' sent to object: 'Object Repository/GmailHomePage/RecipientsField'
+
+2018-04-26 21:37:45 - [TEST_STEP][PASSED] - sendKeys: Keys 'Subject for testing' sent to object: 'Object Repository/GmailHomePage/SubjectField'
+
+2018-04-26 21:37:47 - [MESSAGE][PASSED] - Keys 'Subject for testing' sent to object: 'Object Repository/GmailHomePage/SubjectField'
+
+2018-04-26 21:37:47 - [TEST_STEP][PASSED] - sendKeys: Keys 'Email content: This is for the testing purpose ' sent to object: 'Object Repository/GmailHomePage/TextField'
+
+2018-04-26 21:37:47 - [MESSAGE][PASSED] - Keys 'Email content: This is for the testing purpose ' sent to object: 'Object Repository/GmailHomePage/TextField'
+
+2018-04-26 21:37:47 - [TEST_STEP][PASSED] - delay: Delayed 2 second(s)
+
+2018-04-26 21:37:49 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2018-04-26 21:37:49 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/GmailHomePage/SendBttn' is clicked on
+
+2018-04-26 21:37:50 - [MESSAGE][PASSED] - Object: 'Object Repository/GmailHomePage/SendBttn' is clicked on
+
+2018-04-26 21:37:50 - [TEST_STEP][PASSED] - com.gmail.authentication.GmailAuthentication.GmailLogout: com.gmail.authentication.GmailAuthentication.GmailLogout is PASSED
+
+2018-04-26 21:37:50 - [MESSAGE][PASSED] - Switched to window with index: '0'
+
+2018-04-26 21:37:50 - [MESSAGE][PASSED] - Object: 'Object Repository/GmailHomePage/GmailAccountBttn' is clicked on
+
+2018-04-26 21:37:50 - [MESSAGE][PASSED] - Object: 'Object Repository/GmailHomePage/SignOutBttn' is clicked on
+
+2018-04-26 21:37:50 - [MESSAGE][PASSED] - Alert is present after 30 second(s).
+
+2018-04-26 21:37:50 - [MESSAGE][PASSED] - Alert accepted
+
+2018-04-26 21:37:51 - [MESSAGE][PASSED] - Browser is closed
+
+2018-04-26 21:37:51 - [MESSAGE][PASSED] - com.gmail.authentication.GmailAuthentication.GmailLogout is PASSED]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2018-04-26 21:36:00 - [TEST_SUITE][FAILED] - RegressionTest: Test Cases/Gmail/TC - Logout from Gmail FAILED because (of) No alert found]]></system-out>
+      <system-err><![CDATA[2018-04-26 21:36:00 - [TEST_SUITE][FAILED] - RegressionTest: Test Cases/Gmail/TC - Logout from Gmail FAILED because (of) No alert found]]></system-err>
+   </testsuite>
+</testsuites>
